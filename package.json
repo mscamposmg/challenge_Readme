@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mscamposmg/challenge_Readme#readme",
   "dependencies": {
-    "inquirer": "^9.2.8"
+    "inquirer": "^8.2.4"
   }
 }
