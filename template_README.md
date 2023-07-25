@@ -6,7 +6,7 @@
 	"usage": "teste",
 	"contributing": "teste",
 	"test": "teste",
-	"license": "Eclipse Public License 1.0",
+	"license": "Academic Free License v3.0",
 	"github": "teste",
-	"email": "teste@teste.com"
+	"email": "teste"
 }
