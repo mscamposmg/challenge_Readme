@@ -1,0 +1,19 @@
+{
+  "name": "challenge_readme",
+  "version": "2.0.2",
+  "description": "Generates a Professional README.md file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mscamposmg/challenge_Readme.git"
+  },
+  "author": "Marcelo Souza Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mscamposmg/challenge_Readme/issues"
+  },
+  "homepage": "https://github.com/mscamposmg/challenge_Readme#readme"
+}
