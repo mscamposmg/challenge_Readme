@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mscamposmg/challenge_Readme/issues"
   },
-  "homepage": "https://github.com/mscamposmg/challenge_Readme#readme"
+  "homepage": "https://github.com/mscamposmg/challenge_Readme#readme",
+  "dependencies": {
+    "inquirer": "^9.2.8"
+  }
 }
