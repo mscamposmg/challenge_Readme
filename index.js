@@ -2,10 +2,12 @@
 // ***All packages was included already, such as ".gitignore (node_modules/ and .DS_Store/)", "npm init", "npm install", "npm install inquirer@8.2.4".***
 const inquirer = require("inquirer");
 const fs = require('fs');
+// const { text } = require("stream/consumers");
 // TODO: Create an array of questions for user input
 //const questions = [];
 inquirer
-.createPromptModule([
+    .prompt([
+// .createPromptModule([
     {type: 'input',
      name: 'author',
      message: 'Write your name:',
@@ -35,15 +37,16 @@ inquirer
      message: 'What are the tests instructions of your Project?',
     },
     {type: 'list',
+     name: 'license',
      choices:   [
-                'Academic Free License v3.0',
-                'Boost Software License 1.0',
-                'Creative Commons Attribution 4.0',
-                'Eclipse Public License 1.0',
-                'GNU General Public License v2.0',
-                'ISC',
-                'MIT',
-                ]
+                "Academic Free License v3.0",
+                "Boost Software License 1.0",
+                "Creative Commons Attribution 4.0",
+                "Eclipse Public License 1.0",
+                "GNU General Public License v2.0",
+                "ISC",
+                "MIT",
+                ],
      message: 'Choose the right license for your Project?',
     },
     {type: 'input',
@@ -57,14 +60,17 @@ inquirer
 ])
 .then((data) => {
   const fileName = `${data.name.toLowerCase().split(' ')}.json` ;
-})
+
 // TODO: Create a function to write README file
+fs.writeFile("text.md", JSON.stringify(data, null, '\t'), (err) =>
+err ? console.log(err) : console.log('success!')
+);
+})
+// function writeToFile(fileName, data) {}
 
-function writeToFile(fileName, data) {}
+// // TODO: Create a function to initialize app
+// function init() {}
 
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+// // Function call to initialize app
+// init();
 
