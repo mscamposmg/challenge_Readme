@@ -38,10 +38,6 @@ const questions = [
         name: 'license',
         choices:
             [
-                "Academic Free License v3.0",
-                "Boost Software License 1.0",
-                "Creative Commons Attribution 4.0",
-                "Eclipse Public License 1.0",
                 "GNU General Public License v2.0",
                 "ISC",
                 "MIT",
