@@ -1,12 +1,12 @@
 {
-	"author": "teste",
-	"name": "teste",
-	"description": "teste",
-	"installation": "teste",
-	"usage": "teste",
-	"contributing": "teste",
-	"test": "teste",
-	"license": "Academic Free License v3.0",
-	"github": "teste",
-	"email": "teste"
+	"author": "test",
+	"name": "test",
+	"description": "test",
+	"installation": "test",
+	"usage": "test",
+	"contributing": "test test",
+	"test": "test",
+	"license": "GNU General Public License v2.0",
+	"github": "test",
+	"email": "test"
 }

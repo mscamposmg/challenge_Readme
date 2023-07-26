@@ -38,7 +38,7 @@ const questions = [
         name: 'license',
         choices:
             [
-                "GNU General Public License v2.0",
+                "GNU",
                 "ISC",
                 "MIT",
             ],
