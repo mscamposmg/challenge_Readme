@@ -54,9 +54,6 @@ const questions = [
         },
     ];
 
-// .then((data) => {
-//   const fileName = `${data.name.toLowerCase().split(' ')}.json` ;
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile("template_README.md", JSON.stringify(data, null, '\t'), (err) =>
