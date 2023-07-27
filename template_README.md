@@ -1,27 +1,27 @@
-# teste
+# Node.js Challenge: Professional README Generator
   [![GNU license](https://img.shields.io/badge/License-GNU-yellow.svg)](https://choosealicense.com/licenses/gpl-2.0/)
   
   ## Description
-  teste
+  This project creates a unique and a high-quality README file.
 
   ## Installation
-  teste
+  node index.js
 
   ## Usage
-  teste
+  The project works using the packages json and the NPM inquirer to creat an array of questions and then to transporme those questions in a README.md file. 
 
   ## How to Contribute
-  teste
+  Bootcamp class and the tutoring comunity.
 
   ## Tests
-  teste
+  This project creates a unique and a high-quality README file.
 
   ## Name
-  teste
+  MARCELO SOUZA CAMPOS
 
   ## GitHub
-  teste
+  https://github.com/mscamposmg/challenge_Readme.git
 
   ## Email
-  teste
+  mscamposmg@gmail.com
 
