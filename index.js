@@ -56,7 +56,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, JSON.stringify(data, null, '\t'), (err) =>
+    fs.writeFile(fileName, data, (err) =>
     err ? console.log(err) : console.log('success!')
     );
 }
@@ -66,7 +66,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(function (data) {
         var fileName = 'template_README.md';
-        writeToFile(fileName, data)
+        var markdown = generateMarkdown(data)
+        writeToFile(fileName, markdown)
     });
 }
 
